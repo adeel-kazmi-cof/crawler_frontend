@@ -1,0 +1,70 @@
+.nav-stacked{
+    padding:0px;
+}
+.nav-stacked>li+li, .nav-stacked>li {
+    border-bottom: 1px solid;
+    border-color: rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center
+}
+.nav-stacked > li > a {
+    color: rgba(0, 0, 0, 0.8);
+    padding: 8px;
+}
+.nav-stacked span{
+    margin-right: 5px ;
+    margin-left: 5px;
+
+}
+.nav-stacked span svg{
+    width: 20px;
+    height: 20px;
+}
+.nav-stacked span svg path, .nav-stacked span i{
+  fill: #7D7D7D;
+  color: #7D7D7D;
+}
+.actionlist-header{
+    background-color: #F5F6F7
+}
+
+/* reorder column */
+
+.ReorderColumns-nav .moveableField a{
+    display: flex;
+    align-items: center;
+}
+.ReorderColumns-nav .moveableField{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ReorderColumns-nav .moveableField{
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 4px;
+    padding: 16px 10px;
+    cursor: move;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 2;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ReorderColumns-nav .moveableField a{
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 13px;
+    font-weight: 500px;
+
+}
+.ReorderColumns-nav .moveableField a input{
+    width: 15px;
+    height: 15px;
+    transform: translateY(4px);
+    margin-right: 10px;
+}
+.svg-wrap-20 svg{
+    width: 20px;
+    height: 20px;
+
+}

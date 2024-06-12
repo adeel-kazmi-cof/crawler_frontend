@@ -1,0 +1,835 @@
+
+.model-header{
+/* Rectangle 432 */
+
+display: flex;
+justify-content: space-between;
+padding: 0px 15px;
+margin: 10px;
+
+
+background: #F0F5FF;
+border-radius: 5px;
+
+}
+.model-header .offcanvas-title,.model-header h5{
+    color: #0070d2 !important;
+    font-size: 16px  !important;
+    font-weight: 500;
+
+}
+.model-header span svg{
+    width: 20px;
+
+height: 20px;}
+.model-header .close-btn,.model-header .close-btn:hover,.model-header .close-btn:active{
+    background-color: transparent;
+    border: 0px;
+     border-color: transparent;
+}
+/* status button color */
+.radio-width .form-check-input {
+    width: 22px;
+    height: 22px;
+
+  }
+    .status{
+        -moz-border-radius: 20px;
+          -webkit-border-radius: 20px;
+          border-radius: 20px;
+          font-size: 12px !important;
+          text-transform: none;
+          box-shadow: none !important;
+          text-overflow: ellipsis;
+          max-width: 180px;
+          overflow: hidden;
+          white-space: nowrap;
+         
+        
+      
+          cursor:pointer;
+      }
+
+.status-publish,.passed{
+    background-color: #21C2AA;
+    border-color:#21C2AA ;
+   color:rgb(34, 33, 33);
+}
+.status-drafts,.Interview-Submitted{
+    background-color: #1181E3;
+    border-color: #1181E3;
+    color:#fff;
+}
+.status-expired{
+    background-color: #C52F2B;
+    border-color:#C52F2B ;
+    color:#fff;
+
+}
+.Invite-Scheduled{
+ background: #F49B35;
+
+ border-color:#F49B35 ;
+
+}
+.alert-warning{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    padding: 4px 10px !important;
+    margin-bottom: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+.error{
+    width: auto;
+    color: #dc4c64;
+    margin-top: -0.75rem;
+}
+.success {
+    color:#27B10C;
+}
+/* end color */
+a,ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.cursor{
+    cursor:pointer;
+}
+.d-block{
+    display: block  !important;
+
+}
+.oveflow-auto{
+    height: calc(100vh - 237px);
+    overflow-y: auto;
+}
+
+
+/* margin start */
+.mb-10{
+    margin-bottom: 10px !important;
+}
+.mb-20{
+    margin-bottom: 20px !important;
+}
+.mt-10{
+    margin-top: 10px !important;
+}
+.mt-31{
+    margin-top: 31px !important;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-20{
+    margin-left: 20px !important;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mr-25{
+    margin-right: 25px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mt-15{
+    margin-top:15px !important;
+}
+.mt-20{
+    margin-top: 20px;
+
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+/* margin-end */
+
+
+/* padding start */
+.pb-10 {
+    padding-bottom: 10px !important;
+}
+
+.pt-10 {
+    padding-top: 10px !important;
+}
+
+.pl-10 {
+    padding-left: 10px !important;
+}
+
+.pr-10 {
+    padding-right: 10px !important;
+}
+.plr-1339{
+    padding-left: 13px;
+    padding-right: 39px;
+}
+.pad-0{
+    padding:0px !important
+}
+.pad-10{
+    padding: 10px !important;
+}
+.pad-20{
+    padding: 20px;
+}
+.pad-30{
+    padding:30px !important;
+
+}
+.pad-70{
+    padding:60px;
+}
+.pt-70{
+    padding-top:70px;
+
+}
+
+.row-pad-0 {
+    margin-left: -0px;
+    margin-right: -0px;
+  }
+/* padding  end */
+
+
+/* float css */
+.pull-right{
+    float: right;
+}
+
+/* border radius */
+.radius-7{
+    border-radius: 7px;
+}
+.border-radius-4,.radius-5{
+    border-radius: 4;
+}
+.border-radius-5,.radius-5{
+    border-radius: 5px;
+}
+/* background color //color */
+.clr-red-ligt{
+  color: #CD6243
+}
+.clr-red-ligt svg{
+    fill: #CD6243 ;
+}
+.bg-white{
+    background-color: #ffff;
+}
+.bg-ligte-gray{
+    background-color: #F5F5F5;
+}
+.bg-orange {
+    background: #fa8564 !important;
+}
+.bg-bright-green {
+    background-color: #27B10C !important;
+}
+.bg-light-blue {
+    background-color: #007998 !important;
+}
+.bg-purple{
+    background-color: #8E7CC3;
+}
+.v-blue-light{
+    background-color: #D7ECFF;
+}
+.bg-blue{
+    background-color: #1070CA;
+}
+.bgwesites{
+background-color: #1070CA;
+}
+.bglinkden{
+    background-color:  #0072B1
+}
+.bgfacebook{
+    background-color: #3B5998
+}.bgxtiwtter{
+    background-color:#1DA1F2;
+}
+.bghighlightscompany{
+    background: #F5F5F5 none repeat scroll 0 0;
+}
+/* border css */
+.single-border{
+   
+    border-top:1px solid #DADADA;
+   
+}
+.bg-white-border-bottom{
+    border-bottom:1px solid #DADADA;
+}
+.bg-white-border{
+    border-bottom:1px solid #DADADA;
+}
+.border-right-0{
+    border-right:0px  !important
+}
+
+.border-left-0{
+    border-left:0px  !important
+}
+
+.clr-light-black{
+    color:rgba(0, 0, 0, 0.75)
+}
+.border-0{
+    border: 0px;
+}
+/* width */
+.w-percent-80{
+    width: 80% !important;
+}
+.w-percent-65{
+    width: 65%   !important;
+}
+.w-percent-10{
+    width: 10% !important;
+}
+/*    position: relative; */
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position:absolute;
+}
+.bottom_35{
+    bottom: -35px;
+   
+}
+.left-44{
+    left: 44px;
+}
+
+
+/* scroll */
+.y-scroll{
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+    overflow-x: hidden;
+    
+}
+
+/* line-height */
+
+.line-height-14{
+    line-height: 14px;
+}
+.line-height-26{
+    line-height: 26px;
+}
+.line-height-24{
+    line-height:24px;
+}
+
+/*  */
+.float-left{
+    float: left;
+}
+.float-right{
+    float:right;
+}
+
+
+
+
+/* hide */
+.hide{
+    display: none;
+}
+/* icon */
+.icon-contacts:before {
+    content: '\e810';
+}
+@font-face {
+    font-family: "fontello";
+    src: url("../css/fontello/font/fontello.eot?69343");
+    src: url("../css/fontello/font/fontello.eot?69343#iefix") format("embedded-opentype"),
+        url("../css/fontello/font/fontello.woff2?69343") format("woff2"),
+        url("../css/fontello/font/fontello.woff?69343") format("woff"),
+        url("../css/fontello/font/fontello.ttf?69343") format("truetype"),
+        url("../css/fontello/font/fontello.svg?69343#fontello") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-timesheet:before {
+    content: '\e800';
+}
+
+/* 'î €' */
+.icon-unpublish-icon:before {
+    content: '\e801';
+}
+
+/* 'î ' */
+.icon-upload-resume:before {
+    content: '\e802';
+}
+
+.icon-revenue:before {
+    content: '\e987';
+}
+
+/* 'î ‚' */
+.icon-vendor:before {
+    content: '\e803';
+}
+
+/* 'î ƒ' */
+.icon-view-resume:before {
+    content: '\e804';
+}
+
+/* 'î „' */
+.icon-address-book:before {
+    content: '\e805';
+}
+
+/* 'î …' */
+.icon-ai-sourcing:before {
+    content: '\e806';
+}
+
+/* 'î †' */
+.icon-appointment:before {
+    content: '\e807';
+}
+
+/* 'î ‡' */
+.icon-arya:before {
+    content: '\e808';
+}
+
+/* 'î ˆ' */
+.icon-assign-user:before {
+    content: '\e809';
+}
+
+/* 'î ‰' */
+.icon-associations:before {
+    content: '\e80a';
+}
+
+/* 'î Š' */
+.icon-binoculars:before {
+    content: '\e80b';
+}
+
+/* 'î ‹' */
+.icon-campaign:before {
+    content: '\e80c';
+}
+
+/* 'î Œ' */
+.icon-campaign-tilt:before {
+    content: '\e80d';
+}
+
+/* 'î ' */
+.icon-candidate:before {
+    content: '\e80e';
+}
+
+/* 'î Ž' */
+.icon-contact:before {
+    content: '\e80f';
+}
+
+/* 'î ' */
+.icon-contacts:before {
+    content: '\e810';
+}
+
+/* 'î ' */
+.icon-contact-submission:before {
+    content: '\e811';
+}
+
+/* 'î ‘' */
+.icon-dice:before {
+    content: '\e812';
+}
+
+/* 'î ’' */
+.icon-email-slash-o:before {
+    content: '\e813';
+}
+
+/* 'î “' */
+.icon-envelope:before {
+    content: '\e814';
+}
+
+/* 'î ”' */
+.icon-esign:before {
+    content: '\e815';
+}
+
+/* 'î •' */
+.icon-expense:before {
+    content: '\e816';
+}
+
+/* 'î –' */
+.icon-extraxt-resume:before {
+    content: '\e817';
+}
+
+/* 'î —' */
+.icon-hires:before {
+    content: '\e818';
+}
+
+/* 'î ˜' */
+.icon-hiring-manager:before {
+    content: '\e819';
+}
+
+/* 'î ™' */
+.icon-indeed:before {
+    content: '\e81a';
+}
+
+/* 'î š' */
+.icon-integrations:before {
+    content: '\e81b';
+}
+
+/* 'î ›' */
+.icon-interactions:before {
+    content: '\e81c';
+}
+
+/* 'î œ' */
+.icon-internal-submission:before {
+    content: '\e81d';
+}
+
+/* 'î ' */
+.icon-invoice:before {
+    content: '\e81e';
+}
+
+/* 'î ž' */
+.icon-invoice2:before {
+    content: '\e81f';
+}
+
+/* 'î Ÿ' */
+.icon-job-order:before {
+    content: '\e820';
+}
+
+/* 'î  ' */
+.icon-mailchimp:before {
+    content: '\e821';
+}
+
+/* 'î ¡' */
+.icon-menu-settings:before {
+    content: '\e822';
+}
+
+/* 'î ¢' */
+.icon-nexxt:before {
+    content: '\e823';
+}
+
+/* 'î £' */
+.icon-note:before {
+    content: '\e824';
+}
+
+/* 'î ¤' */
+.icon-onboarding:before {
+    content: '\e825';
+}
+
+/* 'î ¥' */
+.icon-onedrive:before {
+    content: '\e826';
+}
+
+/* 'î ¦' */
+.icon-opportunity:before {
+    content: '\e827';
+}
+
+/* 'î §' */
+.icon-pipeline:before {
+    content: '\e828';
+}
+
+/* 'î ¨' */
+.icon-pitch:before {
+    content: '\e829';
+}
+
+/* 'î ©' */
+.icon-placement:before {
+    content: '\e82a';
+}
+
+/* 'î ª' */
+.icon-recent:before {
+    content: '\e82b';
+}
+
+/* 'î «' */
+.icon-reminder:before {
+    content: '\e82c';
+}
+
+/* 'î ¬' */
+.icon-remove-hotlist:before {
+    content: '\e82d';
+}
+
+/* 'î ­' */
+.icon-resume-agency:before {
+    content: '\e82e';
+}
+
+/* 'î ®' */
+.icon-resume-library:before {
+    content: '\e82f';
+}
+
+/* 'î ¯' */
+.icon-sequence:before {
+    content: '\e830';
+}
+
+/* 'î °' */
+.icon-sequence-inverse:before {
+    content: '\e831';
+}
+
+/* 'î ±' */
+.icon-sliders:before {
+    content: '\e832';
+}
+
+/* 'î ²' */
+.icon-status-icon:before {
+    content: '\e833';
+}
+
+/* 'î ³' */
+.icon-status-icon-old:before {
+    content: '\e834';
+}
+
+/* 'î ´' */
+.icon-sync:before {
+    content: '\e835';
+}
+
+/* 'î µ' */
+.icon-task-finish:before {
+    content: '\e836';
+}
+
+/* 'î ¶' */
+.icon-tei:before {
+    content: '\e837';
+}
+
+/* 'î ·' */
+.icon-job-matching:before {
+    content: '\e838';
+}
+
+/* 'î ¸' */
+.icon-email-processing:before {
+    content: '\e83a';
+}
+
+/* 'î º' */
+.icon-rbpm-icon:before {
+    content: '\e83c';
+}
+
+/* 'î ¼' */
+.icon-email-verified:before {
+    content: '\e83d';
+}
+
+/* 'î ½' */
+.icon-email-unverified:before {
+    content: '\e83e';
+}
+
+/* 'î ¾' */
+.icon-zoom-in:before {
+    content: '\f07e';
+}
+
+
+
+
+
+/* alert css */
+.alert{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    Z-Index: 9999;
+
+background: #ECFDF5;
+border-radius: 7px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+/* or 233% */
+
+color: #7D7D7D;
+border:1px solid #ECFDF5; 
+
+
+
+
+
+
+border-radius: 7px;
+
+
+
+
+
+
+
+
+
+
+}
+
+.Invite-Conducted 
+{
+
+
+background: #2C80D0;
+
+border: 1px solid #2C80D0 ;
+
+
+} .Invite-Rejected{
+
+} .Invite-Offer,.status-Active{
+
+
+    border: 1px solid #2C80D0;
+
+background: #2C80D0;
+
+
+
+
+
+
+
+} .Invite-Passed{
+    /* Passed */
+
+
+    border: 1px solid #00C599;
+
+
+
+
+background: #00C599;
+
+
+
+
+
+} .Invite-Submitted{
+
+    border: 1px solid #2C80D0;
+
+background: #2C80D0;
+
+
+}
+
+
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  .pagination-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .pagination-left{
+    display: flex;
+  }
+  .pagination-left .form-select{
+    height: 35px  !important;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .pagination-left span{
+    display: flex;
+  
+    margin-right: 10px;
+  }

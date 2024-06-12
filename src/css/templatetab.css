@@ -1,0 +1,763 @@
+
+.new-template-wrap{
+    overflow-y: scroll;
+    height: 90vh;
+}
+:root{
+    --labe-clr:
+}
+.new-template-wrap  .label{
+    color: rgb(2 3 8);
+    font-size: 0.89rem;
+    font-weight: 500
+}
+
+
+
+
+
+
+
+
+.pre-interview-box{
+    display: flex;
+
+padding: 15px;
+
+margin-right: 10px;
+margin-bottom: 10px;
+
+border: 1px solid #CCCCCC;
+border-radius: 7px;
+
+}
+.InterviewJourney-content,.addQuestion-wrap{
+    /* Rectangle 547 */
+
+
+border: 1px solid #CCCCCC;
+border-radius: 7px;
+
+}
+.addQuestion-wrap svg{
+    width: 20px;
+    height: 20px;
+
+}
+.question-box{
+    display: flex;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px;
+    padding: 12px 16px;
+    margin-right: 10px;
+ 
+
+}
+.question-box svg{
+    margin-right: 5px;
+}
+
+
+/* file-media  uploaded */
+
+.upload-media-wrap{
+    display: flex;
+    box-sizing: border-box;
+    max-width: 788px;
+    height: 65px;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px;
+    padding: 6px;
+
+}
+.upload-media-wrap .upload-media-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background: #EBEBEB;
+    border-radius: 7px;
+    padding: 10px 20px;
+
+
+}
+.upload-media-wrap svg{
+    width: 20px;
+    height: 20px;
+}
+.question-warp svg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.question-warp .copyicon-clr svg path {
+  
+
+
+
+fill: #BBBBBB;
+
+
+}
+.question-warp .checkboxclr svg path {
+  
+
+
+
+    fill:green;
+    
+    
+    }
+    .question-warp  .text{
+        /* Can you tell me about yourself? */
+
+
+font-weight: 400;
+font-size: 13px;
+line-height: 28px;
+/* identical to box height, or 215% */
+
+color: #7D7D7D;
+
+
+    }
+
+    .template-wrap-nav a{
+        font-size: 15px;
+        line-height: 8px;
+        background: #D6ECFF;
+        border-radius: 5px;
+        color: #0b0c0c;
+        border: 2px solid #D6ECFF;
+        letter-spacing: 0.2px;
+        margin-right: 20px;
+        font-weight: 500;
+        padding: 10px 20px
+    }
+    .template-wrap-nav a.active{
+        background: #0070D2;
+        border: 2px solid #0070D2;
+        color: #fff
+    }
+    .text-ellipsis{
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+     }
+
+     .sms-template-texterea{
+        position: relative;
+     }
+     .sms-template-texterea .selectoption{
+  
+        position: absolute;
+    right: 37px;
+    top: 40px;
+     }
+    .value-count-texterea{
+        position: absolute;
+        right: 30px;
+        bottom: 5px;
+    }
+    .view-templae-wrap .text-input {
+
+font-weight: 600;
+font-size: 13px;
+
+/* identical to box height, or 215% */
+
+color: #7D7D7D;
+/* Template Name */
+
+
+
+
+
+    }
+
+    .view-templae-wrap .view-text{
+
+
+font-weight: 400;
+font-size: 12px;
+
+/* identical to box height, or 233% */
+
+color: #7D7D7D;
+
+
+    }
+
+    .add-link-wrap{
+        position: relative;
+    }
+
+    .add-link-btn-wrap{
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        background: #ECECEC;
+        border-radius: 7px;
+        padding: 8px 30px;
+
+
+
+
+
+    }
+    .add-link-btn-wrap svg{
+        width: 14px;
+        height: 14px;
+      
+    }
+    .add-link-btn-wrap span{
+        margin-right: 15px;
+        cursor: pointer;
+        display: inline-block;
+    }
+    .wrap-progress{
+        display: flex;
+    align-items: center;
+    }
+    .wrap-progress .progress{
+    width: 550px;
+    }
+    .upload-media-content .FileUploadView-wrap {
+        /* Rectangle 679 */
+
+padding: 20px !important;
+max-width: 788px;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px;
+
+    }
+    .svgblue svg{
+        width: 20px;
+        height: 20px;
+    }
+    .svgblue svg  path{
+   fill:  #0070d2 ;
+   margin-right: 5px;
+}
+.addlinkopen-wrap .active{
+    border: 1px solid #0070d2;
+    color: #0070D2;
+    font-size: 14px;
+    font-weight: normal;
+}
+    /* account setting csss */
+
+.accountg-settingRate-scroll{
+    height: calc(612px - 52px);
+    overflow-y: auto;
+
+}
+    .add-user-wrap svg{
+        width: 20px;
+        height: 20px;
+    }
+     .add-user-wrap svg path {
+        fill: #D0D0D0;
+    }
+    .upload-pic{
+        /* Rectangle 707 */
+
+box-sizing: border-box;
+
+
+background: #FFFFFF;
+border: 1px solid #B0ADAD;
+border-radius: 10px;
+
+
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+
+color:#D0D0D0;
+    }
+
+    .card-warp{
+
+
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgb(0 0 0 / 8%);
+        background: #fff;
+        padding: 18px;
+
+    }
+    .card-warp  .card-head{
+       
+        text-align: center;
+    height: 125px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+background: #F0F0F0;
+
+
+    }
+    .card-warp  .card-foot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    .IntegrationsSetting-tab .template-wrap-nav .nav-item{
+        margin-bottom: 15px;
+      
+    }
+    .IntegrationsSetting-tab .template-wrap-nav .nav-item .nav-link {
+        font-size: 14px;
+    line-height: 8px;
+    background: #D6ECFF;
+    border-radius: 5px;
+    color: #0b0c0c;
+    border: 2px solid #D6ECFF;
+    letter-spacing: 0.2px;
+    margin-right: 20px;
+    padding: 10px 10px;
+
+    font-weight: 500;
+
+    }
+    .IntegrationsSetting-tab  .template-wrap-nav .nav-item .nav-link svg {
+        margin-right: 5px;
+        width: 20px !important;
+        height: 20px !important;
+        fill: #D6ECFF;
+    }
+    .IntegrationsSetting-tab  .template-wrap-nav .nav-item .nav-link svg  path{
+
+    }
+    .IntegrationsSetting-tab .template-wrap-nav .nav-item .nav-link.active {
+    background: #0070D2;
+    border: 2px solid #0070D2;
+    color: #fff;
+}
+.IntegrationsSetting-tab .template-wrap-nav .nav-item .nav-link.active svg path{
+    fill: #fff;
+}
+.add-user-wrap {
+    overflow-y: auto;
+    height: 595px
+}
+/* billing tab css */
+
+.wrap-billing-plan{
+    padding: 20px;
+}
+.wrap-billing-plan .billing-plan-card{
+    padding: 10px;
+}
+.wrap-billing-plan .billing-plan-card{
+    /* Rectangle 297 */
+
+
+
+background: #FFFFFF;
+border: 1px solid #B0ADAD;
+border-radius: 10px;
+
+
+}
+.wrap-billing-plan .billing-plan-card .billing-box{
+display: flex;
+
+align-items: center;
+min-width: 197px;
+height: 29px;
+
+padding:10px 5px 10px 10px;
+background: #F8F8F8;
+border-radius: 7px;
+margin-bottom: 10px;
+
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+
+color:#545454;
+
+
+}
+.wrap-billing-plan .billing-plan-card .title svg{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+.wrap-billing-plan .billing-plan-card .title{
+width: 400px;
+margin-bottom: 10px;
+
+
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color:#545454;
+
+
+
+}
+
+/* plna rate */
+.plan-rate-wrap{
+ 
+ 
+  
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .05);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+
+background: #FFFFFF;
+
+border-radius:8px;
+
+
+
+}
+.plan-rate{
+    position: relative;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+
+}
+.rate .curreny{
+
+
+font-weight: 500;
+font-size: 34px;
+
+
+
+
+
+
+}
+.price{
+   
+
+ 
+
+    font-weight: 500;
+    font-size: 2.6rem
+
+
+
+
+}
+.month{
+    position: relative;
+    top: -35px;
+    left: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px
+  
+
+
+
+}
+
+
+.lite{
+    /* Lite */
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+.content-rate-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contract{
+
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+
+
+
+}
+.p-common{
+ 
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+display: flex;
+align-items: center;
+text-align: center;
+line-height: 16px;
+
+color: #636363;
+
+
+}
+.rate-btn{
+    display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+
+border-radius: 3px;
+}
+/*  */
+.gray-card  {
+    border-top: #A1A1A1 5px solid;
+}
+.gray-card .price ,.gray-card .month,.gray-card .lite,.gray-card  .curreny,.gray-card  .contract{
+   color: #A1A1A1;
+}
+
+.gray-card  .rate-btn{
+        background: #A1A1A1;
+        border: 2px solid  #A1A1A1;
+        color: #FFFFFF;
+
+    }
+    .light-blue-card{
+        border-top: 5px solid #54C5E6;
+    }
+    .light-blue-card .rate-btn  {
+    background: #54C5E6;
+    border: 2px solid #54C5E6;
+    border-radius: 3px;
+    color: #FFFFFF;
+    
+ }
+
+ .light-blue-card .price , .light-blue-card .month, .light-blue-card .lite, .light-blue-card .curreny, .light-blue-card  .contract{
+    color: #54C5E6;
+}
+
+
+.blue-card{
+    border-top: 5px solid #428BCA;
+}
+.blue-card .month{
+    position: relative;
+    top: -35px;
+    left: 75px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px
+}
+.blue-card  .rate-btn  {
+    background: #428BCA;
+    border: 2px solid #428BCA;
+    border-radius: 3px;
+color: #FFFFFF;
+
+}
+.wrap-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1px;
+}
+
+.blue-card .price ,.blue-card .month,.blue-card .lite,.blue-card .curreny,.blue-card  .contract{
+    color: #428BCA;
+}
+
+.blue-card:hover,.light-blue-card:hover,.gray-card:hover{
+    
+    box-shadow: 0 2px 30px rgba(89,69,230,.12);
+    border: 0 solid transparent;
+
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+.save-annulayy-price{
+    /* Monthly */
+
+
+
+
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+
+
+color: #636363;
+
+
+}
+.save-annulayy-price span{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.w-content{
+    min-height: 160px !important;
+    min-width: 254px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrap-accounting-setting .quick-action span{
+    margin-right: 10px;
+    
+   
+}
+.custom-select-wrap .css-13cymwt-control , .custom-select-wrap .css-t3ipsp-control
+{
+height: 60px;
+}
+
+.save-question-circle{
+    background: #D7ECFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0070D2;
+}
+.save-question-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.save-question-wrap .dropdown button{
+    background-color: transparent;
+    border-color: transparent;
+}
+.save-question-wrap .dropdown-toggle::after{
+ display: none;
+}
+.save-question-wrap .fa-ellipsis-v{
+    font-size: 28px;
+    color: gray;
+    font-weight: 500;
+    cursor: pointer;
+}
+.save-question-box{
+    /* Rectangle 564 */
+
+
+    margin-right: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 7px;
+    padding: 0px 12px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save-question-box svg{
+    width: 13px;
+    height: 13px;
+    margin: 0px 5px 0px 5px;
+}
+.save-question-box svg path{
+    fill:#CCCCCC;
+}
+.save-question-box label{
+    font-weight: 400;
+font-size: 12px;
+
+
+color: #7D7D7D;
+
+}
+.save-question-box span{
+    /* 5 Retakes */
+
+
+
+
+    font-weight: 400;
+    font-size: 10px;
+    
+    
+    color: #7D7D7D;
+
+
+}
+.addQuestion-wrap .question-box{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+  
+
+
+  
+
+
+    
+}
+.addQuestion-wrap .question-box .crl-qestion-tab{
+color: #7D7D7D !important;
+}
+.addQuestion-wrap .activeclass{
+    /* Rectangle 550 */
+
+
+
+border: 2px solid #0070D2;
+
+
+
+
+color: #0070D2;
+
+
+
+}
+.addQuestion-wrap  .options-wrap{
+    max-width: 236px !important;
+}
+.box-emil-analytics{
+    /* Rectangle 757 */
+
+box-sizing: border-box;
+
+
+
+border: 1px solid #D2D2D2;
+border-radius: 7px;
+
+}
+.btn-add-option{
+    height: 36px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.count-word{
+    position: absolute;
+    bottom: 7px;
+    right: 6px;
+}

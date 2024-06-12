@@ -1,0 +1,7 @@
+@media screen and (max-width: 765px) {
+    .LeftMenu-warp {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }

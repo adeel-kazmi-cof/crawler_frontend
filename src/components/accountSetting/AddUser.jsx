@@ -90,19 +90,19 @@ const AddUser=({handleClose,profileId})=>{
             </Col>
             <Col md={6} className='mb-10'>
             <Label text="Email" className="labelinput"/>
-                    <InputField  type="text " id="email" name="email"  onChange={handleChange}   placeholder="Enter your email address"/>
+                    <InputField  type="email" id="email" name="email"  onChange={handleChange}   placeholder="Enter your email address"/>
             </Col>
             <Col md={6} className='mb-10'>
             <Label text="Phone Number" className="labelinput"/>
-                    <InputField  type="text "  id="phoneNumber" name="phoneNumber" onChange={handleChange}  placeholder="Enter your phone number"/>
+                    <InputField  type="tel"  id="phoneNumber" name="phoneNumber" onChange={handleChange}  placeholder="Enter your phone number"/>
             </Col>
             <Col md={6} className='mb-10'>
             <Label text="Password" className="labelinput"/>
-                    <InputField  type="text " id="password" name="password"  onChange={handleChange}  placeholder="Enter password"/>
+                    <InputField  type="password" id="password" name="password"  onChange={handleChange}  placeholder="Enter password"/>
             </Col>
             <Col md={6} className='mb-10'>
             <Label text="Confirm Password" className="labelinput"/>
-                    <InputField  type="text " id="confirmPassword" name="confirmPassword" onChange={handleChange}  placeholder="Confirm password"/>
+                    <InputField  type="password" id="confirmPassword" name="confirmPassword" onChange={handleChange}  placeholder="Confirm password"/>
             </Col>
             
 <Col md={12}  className="text-end mt-20 mb-20">

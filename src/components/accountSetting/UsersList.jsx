@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Row, Col, Dropdown, Table, Form, Button } from "react-bootstrap";
 import { CustomButton } from "../../components/form";
-import { JobActive, deletegray, exporticon, adduser, shareeye, pencil, timer, time, usercircle } from '../../helper/Icons/Icon';
+import UserAccountsList from "../../components/accounts/UserAccountsList";
+import { pencil, timer, time, usercircle } from '../../helper/Icons/Icon';
 import usersIcong from '../../assets/images/users.png';
 import Profile from "../../pages/Profile";
 import AddUser from "./AddUser";
@@ -19,6 +20,7 @@ const UsersList = () => {
     const [profileId, setProfileId] = useState(false)
     const [showAdduser, setAdduser] = useState(false);
     const [showEditUser, setEditUser] = useState(false);
+    const [showUserAccountsList, setUserAccountsList] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const [perPage, setPerPage] = useState(25);
 
@@ -55,6 +57,8 @@ const UsersList = () => {
             setAdduser(!showAdduser)
         } else if (type == "edituser") {
             setEditUser(!showEditUser)
+        } else if (type == "selectAccounts") {
+            setUserAccountsList(!showUserAccountsList)
         }
 
     }
@@ -139,13 +143,13 @@ const UsersList = () => {
                             <th style={{ width: "15px" }} className="th-icon"><i className="fa fa-ellipsis-v" title="Quick Action"></i></th>
                             <th style={{ minWidth: "100px", width: "200px" }} className="th-text">Quick Actions</th>
 
-                            <th style={{ minWidth: "100px", width: "200px" }}>Full Name</th>
-                            <th style={{ minWidth: "100px", width: "260px" }}><span>Status</span></th>
+                            <th style={{ minWidth: "100px", width: "200px" }} className="th-text">Full Name</th>
+                            <th style={{ minWidth: "100px", width: "260px" }} className="th-text"><span>Status</span></th>
 
-                            <th style={{ minWidth: "100px", width: "200px" }}><span>Role</span></th>
-                            <th style={{ minWidth: "100px", width: "200px" }}><span>Email</span></th>
+                            <th style={{ minWidth: "100px", width: "200px" }} className="th-text"><span>Role</span></th>
+                            <th style={{ minWidth: "100px", width: "200px" }} className="th-text"><span>Email</span></th>
 
-                            <th style={{ minWidth: "100px", width: "200px" }}><span>Phone Number</span></th>
+                            <th style={{ minWidth: "100px", width: "200px" }} className="th-text"><span>Phone Number</span></th>
 
                         </tr>
                     </thead>
@@ -162,10 +166,11 @@ const UsersList = () => {
                                             <span onClick={() => handleModel("edituser", user.id)}>{pencil}</span>
                                             <span onClick={() => handleModel("profile", user.id)}>
                                                 <img style={{ width: '30px', height: '30px', borderRadius: '50%' }} src={usersIcong} alt="Cricket" className="img-fluid" />
-
                                             </span>
-
-                                            <span className="ml-10">{time}</span>
+                                            <span className="ml-10" onClick={() => handleModel("selectAccounts", user.id)}>
+                                                {time}
+                                            </span>
+                                            
                                         </td>
 
                                         <td className="td-text"> {user.full_name}</td>
@@ -202,6 +207,7 @@ const UsersList = () => {
             {showProfile && <Profile profileId={profileId} handleClose={() => handleModel("profile")} />}
             {showAdduser && <AddUser handleClose={() => handleModel("adduser")} />}
             {showEditUser && <EditUser profileId={profileId} handleClose={() => handleModel("edituser")} />}
+            {showUserAccountsList && <UserAccountsList profileId={profileId} handleClose={() => handleModel("selectAccounts")} />}
         </>
     )
 }

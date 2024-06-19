@@ -136,6 +136,7 @@ export const deleteUser = createAsyncThunk(
         }
     }
 )
+
 export const updatePassword = createAsyncThunk(
     'user/change-password',
     async (payload, thunkAPI) => {
@@ -147,11 +148,34 @@ export const updatePassword = createAsyncThunk(
         }
 
         try {
-            const { data } = await axios.get(`${API_BASE_URL}/change-password`, config);
+            const { data } = await axios.put(`${API_BASE_URL}/change-password`, config);
             return data.users;
 
         } catch (error) {
             return thunkAPI.rejectWithValue(error.response.data);
+        }
+    }
+)
+
+export const accountsPermissions = createAsyncThunk(
+    'users/accounts-permissions',
+    async ({payload}, thunkAPI) => {
+        const config = {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + userToken
+            },
+        }
+
+        try {
+            const { data } = await axios.put(`${API_BASE_URL}/accounts-permissions`, payload, config)
+            return data;
+        } catch (error) {
+            if (error.response) {
+                return thunkAPI.rejectWithValue(error.response.data)
+            } else {
+                return thunkAPI.rejectWithValue(error.response.data.message)
+            }
         }
     }
 )

@@ -8,7 +8,6 @@ import '../css/detailPage.css';
 import '../css/interview.css';
 import '../css/recording.css';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
-import Requestdemo from "../components/accountSetting/RequestDemo";
 import Login from "../pages/Login";
 import Register from "../components/accountSetting/Register";
 
@@ -28,8 +27,6 @@ const Indexs = () => {
             <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/login" element={<Login />} />
-                <Route path="/requestdemo" element={<Requestdemo />} />
-
                 <Route path="/register" element={<Register />} />
 
                 <Route path="/" element={<Layout />}>

@@ -108,13 +108,11 @@ const EditUser = ({ handleClose, profileId }) => {
                       />
                     
                 </Col>
-                <Col md={6} className="mb-10">
-                  
-                </Col>
+                
                 <Col md={6} className="mb-10">
                   <Label text="Email" className="labelinput" />
                   <InputField
-                    type="text "
+                    type="email"
                     id="email"
                     name="email"
                     onChange={handleChange}
@@ -122,10 +120,10 @@ const EditUser = ({ handleClose, profileId }) => {
                     placeholder="Enter your email address"
                   />
                 </Col>
-                <Col md={6} className="mb-10">
+                <Col md={12} className="mb-10">
                   <Label text="Phone Number" className="labelinput" />
                   <InputField
-                    type="text "
+                    type="tel"
                     id="phoneNumber"
                     name="phoneNumber"
                     onChange={handleChange}

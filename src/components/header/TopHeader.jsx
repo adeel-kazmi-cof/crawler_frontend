@@ -3,6 +3,7 @@ import { Navbar, Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import logo from '../../assets/images/rbmp-new-logo.png';
 import { Profile } from '../../helper/Icons/Icon';
+import usersIcong from '../../assets/images/users.png';
 
 import NavLinks from './NavLinks';
 import { Link, useNavigate } from 'react-router-dom';
@@ -44,7 +45,7 @@ function TopHeader({ postjob }) {
        
 
         <div className='header-profile-image ml-10' onClick={toggleDropdown} ref={dropdownRef}>
-          <Image src={Profile} roundedCircle />
+          <Image src={usersIcong} roundedCircle />
 
           {dropdownVisible && (
             <div className='profile-dropdown'>

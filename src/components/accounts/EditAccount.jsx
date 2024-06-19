@@ -114,11 +114,11 @@ const EditAccount = ({ handleClose, accountId }) => {
                         </Col>
                         <Col md={6} className="mb-10">
                             <Label text="Start Time" className="labelinput"/>
-                            <InputField  type="text " id="StartTime" name="StartTime" onChange={handleChange} defaultValue={accountDetail?.start_time} placeholder="HH:MM"/>
+                            <InputField  type="time" id="StartTime" name="StartTime" onChange={handleChange} defaultValue={accountDetail?.start_time} placeholder="HH:MM"/>
                         </Col>                        
                         <Col md={6}  className='mb-10' >
                             <Label text="Repeat Every" className="labelinput"/>
-                            <InputField  type="text " id="RepeatEvery" name="RepeatEvery" onChange={handleChange} defaultValue={accountDetail?.repeat_every} placeholder="Repeat After(minuts)"/>
+                            <InputField  type="number" id="RepeatEvery" name="RepeatEvery" onChange={handleChange} defaultValue={accountDetail?.repeat_every} placeholder="Repeat After(minuts)"/>
                         </Col>
                         <Col md={6} className="mb-10">
                             <Label className="pad-0" text="Status" htmlFor="status" />

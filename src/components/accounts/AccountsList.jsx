@@ -93,9 +93,9 @@ console.log(accounts);
                             <th style={{ width: "20px" }} className="th-text">Detail</th>
                             <th style={{ width: "20px" }} className="th-text">Edit</th>
                             <th style={{ width: "20px" }} className="th-text">Delete</th>
-                            <th style={{ minWidth: "100px", width: "200px" }}>Account Name</th>
-                            <th style={{ minWidth: "100px", width: "260px" }}><span>User</span></th>
-                            <th style={{ minWidth: "100px", width: "200px" }}><span>URL</span></th>
+                            <th style={{ minWidth: "100px", width: "200px" }} className="th-text">Account Name</th>
+                            <th style={{ minWidth: "100px", width: "260px" }} className="th-text">User</th>
+                            <th style={{ minWidth: "100px", width: "200px" }} className="th-text">URL</th>
                         </tr>
                     </thead>
                     <tbody>

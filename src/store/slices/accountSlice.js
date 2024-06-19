@@ -66,6 +66,8 @@ const companySlice = createSlice({
                 state.loading = false
                 state.error = action.payload
             })
+            
+            
     },
 })
 

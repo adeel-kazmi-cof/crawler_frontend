@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { create, update, getAll, getById, deleteUser, getProfile, updatePassword } from '../actions/userActions'
+import { create, update, getAll, getById, deleteUser, getProfile, updatePassword, accountsPermissions } from '../actions/userActions'
 
 
 const initialState = {
@@ -87,6 +87,16 @@ const userSlice = createSlice({
                 state.loading = false
             })
             .addCase(updatePassword.rejected, (state, action) => {
+                state.loading = false
+                state.error = action.payload
+            })
+            .addCase(accountsPermissions.pending, (state, action) => {
+                state.loading = true
+            })
+            .addCase(accountsPermissions.fulfilled, (state, action) => {
+                state.loading = false
+            })
+            .addCase(accountsPermissions.rejected, (state, action) => {
                 state.loading = false
                 state.error = action.payload
             })
